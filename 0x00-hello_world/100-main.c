@@ -1,1 +1,1 @@
-intel_syntax noprefix
+export CFILE=0-main.c ;
