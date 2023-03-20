@@ -1,15 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry print single digit numbers to base 10
- *
- * Return: always 0
+ * main - Entry point
+ * Discription: 'Print number of base 10 using putchar'
+ * Return: Always 0
  */
 int main(void)
+{
+	int n;
+
+	for (n = 0; n <= 9; n++)
 	{
-	for (i = 0; i <= 9 ; i++)
-	putchar(i + '0');
-	}
-	putchar('\n');
+		putchar(n + 48);
 	return (0);
-	{
+	}
+}	
