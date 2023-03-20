@@ -1,9 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - main function
+ * main - Entry print single digit numbers to base 10
+ *
  * Discription: 'Print number of base 10 using putchar'
- * Return: Always 0
+ *
+ * Return:  Always 0 (Success)
  */
 int main(void)
 {
@@ -12,6 +13,7 @@ int main(void)
 	for (n = 0; n <= 9; n++)
 	{
 		putchar(n + 48);
-	return (0);
 	}
+	putchar('\n');
+	return (0);
 }
