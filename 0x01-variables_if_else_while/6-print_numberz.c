@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - main function
  * Discription: 'Print number of base 10 using putchar'
  * Return: Always 0
  */
@@ -14,4 +14,4 @@ int main(void)
 		putchar(n + 48);
 	return (0);
 	}
-}	
+}
