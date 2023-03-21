@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - main function
  * discriprion: 'get the last degiti of a number'
  * Return: always 0 (Success)
  */
