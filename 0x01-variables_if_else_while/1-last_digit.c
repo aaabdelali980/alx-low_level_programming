@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - main function
  * discriprion: 'get the last degiti of a number'
@@ -19,7 +20,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
 	}
-	else if (lastd == 0, lastd)
+	else if (lastd == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lastd);
 	}
