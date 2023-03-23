@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_alphapet - print all alphabet in lowercase
  */
-int main(void)
+void print_alphapet(void)
 {
-	print_alphabet();
-	return (0);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+	_putchar('\n');
 }
