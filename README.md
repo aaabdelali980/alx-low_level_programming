@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C - Hello, World
+0x0A-argc_argv
